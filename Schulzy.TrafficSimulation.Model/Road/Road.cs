@@ -1,9 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
+using Schulzy.TrafficSimulation.Model.Enums;
 
 namespace Schulzy.TrafficSimulation.Model.Road
 {
-    public class Road
+    internal class Road
     {
         private readonly LinkedList<Segment> _segments;
 

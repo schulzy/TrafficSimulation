@@ -1,6 +1,6 @@
 ﻿namespace Schulzy.TrafficSimulation.Model.Road
 {
-    public class Segment
+    internal class Segment
     {
         public Segment(Point startPoint, Point endPoint)
         {

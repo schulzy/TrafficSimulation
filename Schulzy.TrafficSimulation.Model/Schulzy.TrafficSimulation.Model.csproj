@@ -40,10 +40,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Car\Car.cs" />
+    <Compile Include="Enums\Courage.cs" />
+    <Compile Include="Driver\Driver.cs" />
+    <Compile Include="Driver\IDriver.cs" />
+    <Compile Include="Driver\IDriverBehaviour.cs" />
+    <Compile Include="Enums\VisionDistance.cs" />
+    <Compile Include="Enums\Speed.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Road\Point.cs" />
     <Compile Include="Road\Road.cs" />
-    <Compile Include="Road\RoadType.cs" />
+    <Compile Include="Enums\RoadType.cs" />
     <Compile Include="Road\Segment.cs" />
   </ItemGroup>
   <ItemGroup />

@@ -1,6 +1,6 @@
-﻿namespace Schulzy.TrafficSimulation.Model.Road
+﻿namespace Schulzy.TrafficSimulation.Model.Enums
 {
-    public enum RoadType
+    internal enum RoadType
     {
         Motorway,
         HighSpeedHighway,
